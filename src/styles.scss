@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+html {
+  background-image: linear-gradient(to right,rgb(8, 8, 73), rgb(17, 40, 170));
+}

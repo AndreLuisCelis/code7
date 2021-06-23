@@ -1,0 +1,22 @@
+body {
+  background-image: linear-gradient(to right,rgb(8, 8, 73), rgb(17, 40, 170));
+}
+.item-um {
+  max-height: 500px;
+  overflow-y: auto;
+  scroll-behavior: auto;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #111;
+}
+.item-dois{
+  background-color: rgb(18, 18, 92);
+  color: #eee;
+  box-shadow: 10px 10px 10px #111;
+}
+.info-main-filme{
+  min-width: 400px;
+  .card {
+    height: 750px;
+    background-color: #eee;
+  }
+}
