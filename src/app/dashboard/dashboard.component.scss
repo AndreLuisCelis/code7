@@ -17,7 +17,7 @@ body {
   content: "";
   background-image: url("https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/3/35/Official_FFH_US_Poster.jpg/revision/latest?cb=20190522171521");
   background-repeat: no-repeat;
-  background-size: 35%;
+  background-size: 500px 700px;
   background-position: left  top;
   opacity: 0.3;
   top: 0;
@@ -32,7 +32,7 @@ body {
   color: #eee;
   box-shadow: 10px 10px 10px #111;
   z-index: 1;
-
+  min-width: 250px;
 }
 .info-main-filme{
   min-width: 400px;
@@ -40,5 +40,12 @@ body {
     z-index: 1;
     height: 750px;
     background-color: #eee;
+  }
+}
+
+
+@media (max-width:700px) {
+  .info-main-filme{
+    min-width: 320px;
   }
 }
