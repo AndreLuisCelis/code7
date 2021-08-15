@@ -8,45 +8,51 @@
   <title>code7</title>
 </head>
 <body>
-  <div class="back">
-    <div class="container">
-      <div class="row pt-5 ">
-        <div class="col-12 col-lg-9">
-          <div class="row item-um">
-            <div class="col-4 info-main-filme" *ngFor="let filme of filmes">
-              <div class="card m-3"  >
-                <div class="card-body">
-                  <img src="{{filme.poster}}" class="card-img-top" alt="...">
-                  <h5 class="card-title">{{filme.nome}}</h5>
-                  <p class='card-text'>Ano: {{filme.ano}}</p>
-                  <p class='card-text'>Descrição: {{filme.descricao}}</p>
-                  <p class='card-text'>Diretor: {{filme.diretor}}</p>
-                </div>
-              </div>
-            </div>
+  <div id='content' class='back'>
+    <header>
+      <div class="card header">
+        <h1>Blockbuster </h1>
+        <button class = 'btn btn-primary'>Cadastar</button>
+      </div>
+    </header>
+    <main><div class="row item-um">
+      <div class="col-4 info-main-filme" *ngFor="let filme of filmes">
+        <div class="card m-3 "  >
+          <div class="card-body">
+            <img src="{{filme.poster}}" class="card-img-top" alt="...">
+            <h5 class="card-title mt-2">{{filme.nome}}</h5>
+            <p class='card-text'>Ano: {{filme.ano}}</p>
+            <p class='card-text'>Descrição: {{filme.descricao}}</p>
+            <p class='card-text'>Diretor: {{filme.diretor}}</p>
           </div>
         </div>
-        <div class="col-12 col-lg-3 item-dois">
-          <div class="row">
-            <div class="col-12" *ngFor="let filme of filmes">
-              <div class="card mb-4 item-tres">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-4">
-                      <img width="50px" src="{{filme.poster}}" alt="">
-                    </div>
-                    <div class="col-8">
-                      <h5 class="card-title">{{filme.nome}}</h5>
-                    </div>
-                  </div>
-                </div>
+      </div>
+    </div>
+  </main>
+    <aside>
+      <div class="col-12 " *ngFor="let filme of filmes">
+        <div class="card mb-4 item-tres">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-4">
+                <img width="50px" src="{{filme.poster}}" alt="">
+              </div>
+              <div class="col-8">
+                <h5 class="card-title">{{filme.nome}}</h5>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </aside>
+    <article>
+      <div class="col-auto">
+        <div class="input-group mt-5">
+          <div class="input-group-text">Filme</div>
+          <input type="text" class="form-control"  placeholder=" ...">
+        </div>
+      </div>
+    </article>
   </div>
-
 </body>
 </html>
