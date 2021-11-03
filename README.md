@@ -1,5 +1,28 @@
 # Code7
 
+## Deploy da Aplicação :dash:
+> Link do deploy da aplicação: https://andre-code7.netlify.app/
+
+
+
+## Tecnologias
+
+
+- __Angular 12__ 
+- __Angular Material 12__  
+- __Scss__
+- __Flex__
+- __Grid__
+- __HTML__ 
+- __Typesript__ 
+
+
+
+----------------------------------------
+
+![imagem do projeto](/src/assets/img1.png)
+---------------------------------------------
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 
 ## Development server
