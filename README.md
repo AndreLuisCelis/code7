@@ -20,8 +20,12 @@
 
 ----------------------------------------
 
-![imagem do projeto](/src/assets/img1.png)
+![imagem do projeto](code7-img.png)
 ---------------------------------------------
+
+Simples Aplicação Utlilazando Scss flex-box e flex-grid que simula um sistema de locação de filmes
+
+--------------------------------------------------------------------------------------------------------
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 
